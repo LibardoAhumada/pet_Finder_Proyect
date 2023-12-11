@@ -2,43 +2,44 @@ import Link from "next/link"
 
 export default function Footer() {
     return (
-        <footer className="grid grid-cols-2 mt-14 pt-24 pl-28 pr-40 ">
+        <footer className="w-[360px] h-[840px] grid justify-center mt-[55px] pt-[25px] ">
             <div className="">
-                <img src="images/logo.svg" alt="logo" />
-                <p className="text-lg mt-5 font-normal">En PetFinder estamos para servirte encuentra <br />
-                    a tu mascota perdida con la ayuda de nuestra <br />
-                    app. </p>
-                <div className="flex justify-start mt-16 gap-10">
-                    <img src="images/redes 2.svg" alt="" />
-                    <img src="images/Redes 2.svg" alt="" />
-                    <img src="images/redes 4.svg" alt="" />
-                    <img src="images/redes 5.svg" alt="" />
+                <img src="images/logo.svg" alt="logo" className="mx-auto"/>
+                <p className="mt-[59px] text-[14px] font-normal mx-[70px] text-justify">
+                    En PetFinder estamos para servirte encuentra
+                    a tu mascota perdida con la ayuda de nuestra
+                    app. 
+                </p>
+                <div className="w-[143px] h-[44px] flex mt-[70px] gap-3 mx-[109px]">
+                    <img src="images/redes 2.svg" alt="" className="w-[24px] h-[24px]"/>
+                    <img src="images/Redes 2.svg" alt="" className="w-[24px] h-[24px]"/>
+                    <img src="images/redes 4.svg" alt="" className="w-[24px] h-[24px]" />
+                    <img src="images/redes 5.svg" alt="" className="w-[24px] h-[24px]" />
                 </div>
-                <p className="mt-14 text-sm font-semibold mb-12">@ 2023 All rigth reserved</p>
 
             </div>
-            <div className=" flex justify-between font-bold text-base font-['Inter']">
-                <div className="">PET FINDER
-                    <ul className=" font-medium">
+            <div className="mx-auto text-center lg:flex justify-between lg:font-bold lg:text-base lg:font-['Inter']">
+                <div className="mt-[77px]">PET FINDER
+                    <ul className=" lg:font-medium">
                         <li className="mt-5"><Link href="" scroll={false}>About us</Link></li>
                         <li className="mt-5"><Link href="" scroll={false}>contact us</Link></li>
                         <li className="mt-5"><Link href="" scroll={false}>FAQ</Link></li>
                     </ul>
                 </div>
 
-                <div className="ml-[80px]">LEGAL
+                <div className=" mt-[38px]">LEGAL
                     <ul className="font-medium">
                         <li className="mt-5"><Link href="" scroll={false}>Terminos y Condiciones</Link></li>
                         <li className="mt-5"><Link href="" scroll={false}>Politica de Privacidad</Link></li>
                     </ul>
                 </div>
 
-                <div className="">CONTACT
+                <div className="mt-[38px]">CONTACT
                     <ul className="font-medium">
                         <li className="mt-5"><Link href="" scroll={false}>Support@petfinder.com</Link></li>
                     </ul>
                 </div>
-
+                <p className="mt-14 text-sm font-semibold mb-12">@ 2023 All rigth reserved</p>  
             </div>
         </footer>
 
