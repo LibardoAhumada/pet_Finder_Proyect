@@ -15,19 +15,20 @@ export default function Landing() {
                     </p>
 
                 </div>
-                <section className="flex flex-col justify-center items-center md:flex-row-reverse md:justify-between content-">
+                <div className="flex flex-col justify-center items-center ">
                     <div className="mt-[21px] my-3 ml-[120px] lg:flex align-bottom ">
-                    <img src="images/Footer SVG 3.svg" alt=" " className="md:w-[150px] md:h-[165px] hidden md:block lg:w-[425px] lg:h-[425px] " />
-                    <img src="images/Footer SVG 1.svg " className="w-[164px] h-[88px] origin-top-left rotate-[14deg] lg:hidden block" alt="" />
-                </div>
+                        <img src="images/Footer SVG 3.svg" alt=" " className="md:w-[150px] md:h-[178px] hidden md:block lg:w-[425px] lg:h-[425px] " />
+                        <img src="images/Footer SVG 1.svg " className="w-[164px] h-[88px] origin-top-left rotate-[14deg] md:hidden block" alt="" />
 
-                <div className="mt-[13px] w-[132px] h-[50px] px-6 py-[13px] bg-orange-100 rounded-lg md:w-[75px] md:h-[25px] lg:w-[131px] lg:h-[50px] lg:mt-[33px] lg:flex justify-start lg:mb-[50px]">
-                    <button className="gap-4 flex justify-around text-center text-amber-600 text-base font-semibold font-['Inter'] md:px-0 lg:w-[131px] lg:h-[50px]">
-                        <img src="images/pets_FILL0_wght400_GRAD0_opsz24 1.svg" alt="" className="md:w-[20px] md:h-[20px] md:text-[12px]"/>
-                        Donar
-                    </button>
+                    </div>
+
+                    <div className="mt-[13px] w-[132px] h-[50px] px-6 py-[13px] bg-orange-100 rounded-lg md:w-[35px] md:h-[35px] md:mb-[30px] lg:w-[131px] lg:h-[50px] lg:mt-[33px] lg:flex justify-start lg:mb-[50px]">
+                        <button className=" flex justify-around text-center text-amber-600 text-base font-semibold font-['Inter'] md:px-0 lg:w-[131px] lg:h-[50px]">
+                            <img src="images/pets_FILL0_wght400_GRAD0_opsz24 1.svg" alt="" className="" />
+                            <span className="w-[35px] h-[24pz]">Donar</span>
+                        </button>
+                    </div>
                 </div>
-                </section>          
 
             </div>
         </section>
