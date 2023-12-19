@@ -10,21 +10,23 @@ const Home = () => {
     <>
       <Causa />
       <Footer />
-      <Donar /> 
-    </>
+      <Donar />
+    
 
+  
+
+<div>
+  <Navbar />
+  <div>
+    <FirstText />
+  </div>
+  <div>
+    <LandingImg />
+  </div>
+</div>
+</>
   )
-}
-    <div>
-      <Navbar />
-      <div>
-        <FirstText/>
-      </div>
-      <div>
-        <LandingImg/>
-      </div>
-    </div>
-  );
 };
+
 export default Home;
 
